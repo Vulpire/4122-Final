@@ -1,0 +1,68 @@
+2023-04-28 15:06:26,948:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-04-28 15:06:26,949:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-04-28 15:06:26,949:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-04-28 15:06:26,949:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-04-28 15:06:27,861:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-04-28 15:07:02,085:INFO:Initializing load_model()
+2023-04-28 15:07:02,085:INFO:load_model(model_name=rf_model, platform=None, authentication=None, verbose=True)
+2023-04-28 15:07:02,153:INFO:Initializing predict_model()
+2023-04-28 15:07:02,153:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000019E103FF640>, estimator=Pipeline(memory=FastMemory(location=C:\Users\nbw20\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Precipitation(in)',
+                                             'Temperature(F)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Side', 'State'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 Transfor...
+                                    transformer=OneHotEncoder(cols=['Side'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['State'],
+                                    transformer=LeaveOneOutEncoder(cols=['State'],
+                                                                   handle_missing='return_nan',
+                                                                   random_state=4946))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 RandomForestRegressor(n_jobs=-1, random_state=4946))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x0000019E564830A0>)
+2023-04-28 15:07:02,153:INFO:Checking exceptions
+2023-04-28 15:07:02,154:INFO:Preloading libraries
+2023-04-28 15:07:02,154:INFO:Set up data.
+2023-04-28 15:07:02,156:INFO:Set up index.
+2023-04-28 15:08:06,751:INFO:Initializing load_model()
+2023-04-28 15:08:06,751:INFO:load_model(model_name=rf_model, platform=None, authentication=None, verbose=True)
+2023-04-28 15:08:06,802:INFO:Initializing predict_model()
+2023-04-28 15:08:06,802:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000019E1046B7F0>, estimator=Pipeline(memory=FastMemory(location=C:\Users\nbw20\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Precipitation(in)',
+                                             'Temperature(F)'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Side', 'State'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 Transfor...
+                                    transformer=OneHotEncoder(cols=['Side'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['State'],
+                                    transformer=LeaveOneOutEncoder(cols=['State'],
+                                                                   handle_missing='return_nan',
+                                                                   random_state=4946))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 RandomForestRegressor(n_jobs=-1, random_state=4946))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x0000019E68E78700>)
+2023-04-28 15:08:06,802:INFO:Checking exceptions
+2023-04-28 15:08:06,802:INFO:Preloading libraries
+2023-04-28 15:08:06,802:INFO:Set up data.
+2023-04-28 15:08:06,805:INFO:Set up index.
